@@ -103,7 +103,3 @@ It’s one of those projects that teaches you to *respect every byte*.
 
 ### ⚖️ License
 This repository is licensed under the **MIT License** — feel free to explore, learn, or fork anything you find useful.
-
----
-
-*Made with 6502 Assembly, genuine retro vibes, and far too many tiles 🎮 — Dylan, Jakub, Ádám & Tuur*
