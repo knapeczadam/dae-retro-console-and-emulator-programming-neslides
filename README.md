@@ -42,34 +42,6 @@ To play the game load the `.nes` file with an Emulator like Mesen. You will need
 * `X & A` are west and south buttons, if you are using a different controller.
 * `Y & B` are north and east buttons, if you are using a different controller
 
-## Compiling the Project from source
-
-Before compiling you will need a `cc65 compiler` which you can find [here](https://github.com/cc65/cc65/releases/tag/V2.19). 
-Download the latest source code version. Unzip it and rename it to "cc65" then move it to the `C:\` folder.
-
-Then download this project's code from the top right corner and Unzip when downloaded.
-
-Open the Command Prompt using `Win + R` and typing `cmd` or by searching for command prompt.
-Then navigate to the folder you just downloaded.
-
-```cmd
-cd C:\ProjectDirectory
-
-in my case
-
-cd C:\Users\me\Downloads\NESlides-main
-```
-
-You can make this step easier by copying the path from the explorer.
-
-Finally type 
-
-```cmd
-make clean && make all
-```
-
-you can now find in `ProjectDirectory\out` a file called `NESlides.nes` which you can load in Mesen.
-
 ---
 
 ## 🔎 Course Information
@@ -149,6 +121,34 @@ To simplify content creation, we developed **[NESlidesEditor](https://github.com
 📦 **retro_console_and_emulator_programming-neslides-1.0.0-nes.zip**  
 Contains the final NES ROM release of *NESlides*.  
 Tested with **FCEUX** and **Mesen** emulators.
+
+## Compiling the Project from source
+
+Before compiling you will need a `cc65 compiler` which you can find [here](https://github.com/cc65/cc65/releases/tag/V2.19). 
+Download the latest source code version. Unzip it and rename it to "cc65" then move it to the `C:\` folder.
+
+Then download this project's code from the top right corner and Unzip when downloaded.
+
+Open the Command Prompt using `Win + R` and typing `cmd` or by searching for command prompt.
+Then navigate to the folder you just downloaded.
+
+```cmd
+cd C:\ProjectDirectory
+
+in my case
+
+cd C:\Users\me\Downloads\NESlides-main
+```
+
+You can make this step easier by copying the path from the explorer.
+
+Finally type 
+
+```cmd
+make clean && make all
+```
+
+you can now find in `ProjectDirectory\out` a file called `NESlides.nes` which you can load in Mesen.
 
 ---
 
